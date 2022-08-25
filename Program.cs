@@ -83,4 +83,4 @@ for (int c = 0; c < arrayC.Length; c++)
     }
 }
     Console.WriteLine($"Массив: [{String.Join(" | ", arrayC)}]");
-    Console.WriteLine($"Максимальный элемент: {max}, минимальный элемент {min}");
+    Console.WriteLine($"Максимальный элемент: {max}, минимальный элемент {min}, разница {max - min}");
